@@ -31,14 +31,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 # Structure of files in the codebase
 
-src Folder -
-    WalletCard.js - 
+- src Folder -
+               WalletCard.js 
+    
 ## In WalletCard.js you can find all these functions
 
-connectWalletHandler - For connecting the metamask wallet
-AccoutChangedHandler - Changing account from metamask can cause this function to work
-chainChangedHandler - Changing the chain network in the metamask can cause this function to work
-getAccountBalance - Get the Balance of the token/coin in your metamask wallet. 
+- connectWalletHandler - For connecting the metamask wallet
+- AccoutChangedHandler - Changing account from metamask can cause this function to work
+- chainChangedHandler - Changing the chain network in the metamask can cause this function to work
+- getAccountBalance - Get the Balance of the token/coin in your metamask wallet. 
 
 # Author 
 Palak Jain :)
